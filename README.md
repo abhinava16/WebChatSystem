@@ -458,3 +458,5 @@ app.get('/uscities-search/:city',function (req,res){
         console.log(results)
         res.send(results)
     })})
+
+    P.S: Previously, I used bitbucket for version control/ source code management, now I have uploaded it to GitHub!! Hope it is useful for anyone of you!
