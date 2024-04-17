@@ -43,7 +43,7 @@ Algorithm:
 Link for the demo video is given below,
 https://drive.google.com/file/d/1kdREAMmZHzPoqI9V79RYTJoqFgRNmN_4/view
 
-4. Appendix – Source Code
+3. Appendix – Source Code
 
 Index.html (repo – tumukuntaa1)
 <!DOCTYPE html>
