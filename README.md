@@ -40,85 +40,9 @@ Algorithm:
 •	If the user doesn’t exist, then socket.io returns “User inserted successfully”. Else if there’s any error it returns “cannot insert into database”.
 •	These are displayed as alerts after insertion and the UI is redirected to /login.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Data Flow in the whole assignment across different microservices is shown in the form of a sequence diagram below,
-
- 
-
-
- 
-3. Demo (Screenshots and Video)
-i. Screenshots
-A user with valid credentials is allowed to login,
- 
-User after logging in,
- 
-Registering a user,
- 
-After successful registration,
- 
-
-After successful registration, it redirects to /login page.
- 
-Simulating the web chat application, one of the user is typing,
- 
-
-
-
-
-Authenticated users sending messages to each other,
- 
-When a user who doesn’t exist tries to login,
- 
-
-A couple of screenshot of “users” collection,
-
- 
-
- 
-
-
-
-
-
-
-When a user who already exist tries to login,
- 
-A screenshot of console while a user gets connected and sends a message is shown below,
- 
-
-
-Checking data flow in the microservice /login through Postman,
- 
-With invalid input,
- 
-Signing up user through Postman (To check data flow),
- 
-
-When user already exists,
- 
-While implementation, I couldn’t take few screenshots of the data flow.
-
-ii. Video
-
 Link for the demo video is given below,
 https://drive.google.com/file/d/1kdREAMmZHzPoqI9V79RYTJoqFgRNmN_4/view
 
-
-
- 
 4. Appendix – Source Code
 
 Index.html (repo – tumukuntaa1)
